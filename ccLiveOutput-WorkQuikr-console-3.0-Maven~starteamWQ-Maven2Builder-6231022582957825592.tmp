@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.hexaware.WorkQuikr:WorkQuikr-console:war:3.0
+[WARNING] The expression ${url} is deprecated. Please use ${project.url} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WorkQuikr-console 3.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ WorkQuikr-console ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WorkQuikr-console 3.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- BuildStatusChecker:1.0:buildstatuschecker (default-cli) @ WorkQuikr-console ---
+[INFO] BuildFaces Build Status Checker plugin execution begins...
+[INFO] Project Name from BuildChecker...WorkQuikr-console-3.0-Maven
+[INFO] Buildstamp from BuildChecker...20150929-1642
+[INFO] cithome from BuildChecker...D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4
+[INFO] Config Name starteamWQ
+dir from property file -> D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/logs/WorkQuikr-console-3.0-Maven~starteamWQ
+[INFO] Local Copy is:D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/projects/WorkQuikr-console-3.0-Maven~starteamWQ
+[INFO] UPDATE QUERY-> select local_working_copy from project_to_configuration where project_name='WorkQuikr-console-3.0-Maven' and config_name ='starteamWQ'
+[INFO] Version is:3.0
+[INFO] checkBuildStatus -> select BUILD_PROGRESS from buildbackup where backup_id=95
+[INFO] INSERT STATEMENT-> insert into buildbackup(backup_id,projectname,buildstamp,buildpath,build_status,build_progress,version) values(96,'WorkQuikr-console-3.0-Maven','Tue Sep 29 16:42:00 IST 2015','D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/CustomBackup/WorkQuikr-console-3.0-Maven~starteamWQ/20150929-1642',false,'inprogress',3.0)
+[INFO] 
+[INFO] --- maven-scm-plugin:1.8:update (default-cli) @ WorkQuikr-console ---
+[INFO] Working directory: D:\Internaltools\BuildFaces\CIT_Config\cruisecontrol-bin-2.8.4\projects\WorkQuikr-console-3.0-Maven~starteamWQ
+[INFO] Command line: cmd.exe /X /C "stcmd co -x -nologo -stop -p "28902@172.25.121.135:49202/Architecture/Delivery Excellence - Dev/MobileApplicationDevelopment/MEAP/WorkQuikr-console-3.0-Maven" -fp D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/projects/WorkQuikr-console-3.0-Maven~starteamWQ -is -merge -neverprompt -eol on"
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WorkQuikr-console 3.0
+[INFO] ------------------------------------------------------------------------
