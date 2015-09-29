@@ -8,7 +8,7 @@
   <packaging>war</packaging>
   <version>3.0</version>
   <name>WorkQuikr-console</name>        
-  <url>http://172.25.108.50:8081/artifactory/repo</url>
+  <url>http://172.25.108.50:8081/artifactory/repo</url> 
    
     
 <developers> 
@@ -19,11 +19,11 @@
     </developer>   
 </developers>
 
-<scm>         
-    <connection>${connection.url}</connection>
-    <developerConnection>${developerconnection.url}</developerConnection>
-	<url>${url}</url>
-  </scm>
+<scm>     
+<url>https://github.com/yogeshfromchennai/WorkQuikrMaven</url>    
+    <connection>scm:git:https://github.com/yogeshfromchennai/WorkQuikrMaven.git</connection>
+    <developerConnection>scm:git:git@github.com:yogeshfromchennai/WorkQuikrMaven.git</developerConnection>
+     </scm>
   
 	<!--<dependency>
       <groupId>org.apache.activemq</groupId>
