@@ -7,7 +7,7 @@
   <artifactId>WorkQuikr-console</artifactId>
   <packaging>war</packaging>
   <version>3.0</version> 
-  <name>WorkQuikr-console</name>        
+  <name>GitIntegration</name>        
   <url>http://172.25.108.50:8081/artifactory/repo</url>   
    
      
@@ -15,7 +15,7 @@
      <developer>  
       <id>test</id>  
       <name>test</name>
-      <email>test@hex.com</email>     
+      <email>test@hex.com</email>    
     </developer>   
 </developers> 
 
@@ -354,7 +354,7 @@
 						<!--		<cithome>E:/CIT_Config/cruisecontrol-bin-2.8.4</cithome>-->
 				<cithome>D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
-						<projectname>WorkQuikr-console-3.0-Maven</projectname>
+						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
 					</configuration>
 					<executions>            
@@ -373,7 +373,7 @@
 					<!--	<cithome>E:/CIT_Config/cruisecontrol-bin-2.8.4</cithome>-->
 					<cithome>D:/Internaltools/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
-						<projectname>WorkQuikr-console-3.0-Maven</projectname>
+						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
 					</configuration>
 					<executions>
