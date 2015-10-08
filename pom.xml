@@ -7,7 +7,7 @@
   <artifactId>WorkQuikr-console</artifactId>
   <packaging>war</packaging>
   <version>3.0</version> 
-  <name>GitIntegration</name>            
+  <name>GitIntegration</name>                        
   <url>http://172.25.108.50:8081/artifactory/repo</url>   
    
      
