@@ -351,8 +351,7 @@
 					<artifactId>BuildMaintenance</artifactId>
 					<version>1.0</version>
 					<configuration>
-					<!--		<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>-->
-					<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+					<cithome>C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -370,8 +369,7 @@
 					<artifactId>BuildStatusChecker</artifactId>
 					<version>1.0</version>
 					<configuration>
-					<!--<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>-->
-						<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+						<cithome>C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -466,8 +464,7 @@
             <configuration>
               <files>
                 <file>${basedir}/cc.properties</file>
-				<!--<file>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>-->
-				<file>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>
+				<file>C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>
               </files>
             </configuration>
           </execution>
@@ -558,7 +555,7 @@
               <configuration>
                   <tasks>
 						<echo>Copying files to server</echo>
-				        <copy file="E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/projects/WorkQuikr-console-3.0-Maven/target/WorkQuikr-console-3.0.war" todir="E:/BuildFaces/apache-tomcat-7.0.5/webapps" />
+				        <copy file="C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/projects/WorkQuikr-console-3.0-Maven/target/WorkQuikr-console-3.0.war" todir="C:/BuildFaces/apache-tomcat-7.0.5/webapps" />
 						
 						</tasks>  
 				   
