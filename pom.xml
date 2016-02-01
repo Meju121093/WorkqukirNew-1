@@ -351,7 +351,7 @@
 					<artifactId>BuildMaintenance</artifactId>
 					<version>1.0</version>
 					<configuration>
-					<cithome>C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+					<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -369,7 +369,7 @@
 					<artifactId>BuildStatusChecker</artifactId>
 					<version>1.0</version>
 					<configuration>
-						<cithome>C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+						<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -466,7 +466,7 @@
             <configuration>
               <files>
                 <file>${basedir}/cc.properties</file>
-				<file>C:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>
+				<file>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>
               </files>
             </configuration>
           </execution>
