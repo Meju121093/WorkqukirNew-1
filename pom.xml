@@ -344,11 +344,12 @@
 			 <plugins>
 
 			<!-- To define the plugin version in your parent POM -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>2.2</version>
-			</plugin>
+			
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>2.7.1</version>
+        </plugin>
 
 				<!--Maven Surefire(Unit Testing) plugin-->
 				<plugin>
@@ -473,11 +474,11 @@
     
 	<plugins>
 	<!-- To define the plugin version in your parent POM -->
-	<plugin>
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>sonar-maven-plugin</artifactId>
-		<version>2.2</version>
-	</plugin>
+	 <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.7.1</version>
+      </plugin>
 
 	<!--Maven site genaration plugin with custom template-->
 	<plugin>
@@ -500,7 +501,7 @@
 	<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.0.1</version>
+        <version>3.8</version>
       </plugin>
 <!--Maven Plug in for mail configuration-->
 <plugin>
