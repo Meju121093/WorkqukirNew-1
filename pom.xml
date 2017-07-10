@@ -409,7 +409,7 @@
 					<artifactId>BuildMaintenance</artifactId>
 					<version>1.0</version>
 					<configuration>
-					<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+					<cithome>D:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -425,7 +425,7 @@
 					<artifactId>SamplePlugin</artifactId>
 					<version>1.0</version>
 					<configuration>
-					<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+					<cithome>D:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 					</configuration>
 					<executions>            
 					<execution>
@@ -440,7 +440,7 @@
 					<artifactId>BuildStatusChecker</artifactId>
 					<version>1.0</version>
 					<configuration>
-						<cithome>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
+						<cithome>D:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4</cithome>
 						<buildstamp>${maven.build.timestamp}</buildstamp>
 						<projectname>GitIntegration</projectname>
 						<configname>${config.name}</configname>
@@ -537,7 +537,7 @@
             <configuration>
               <files>
                 <file>${basedir}/cc.properties</file>
-				<file>E:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>
+				<file>D:/BuildFaces/CIT_Config/cruisecontrol-bin-2.8.4/BuildFacesConfig.properties</file>
               </files>
             </configuration>
           </execution>
